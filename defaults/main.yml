@@ -1,0 +1,4 @@
+---
+# defaults file for sqlite
+sqlite_dir: /var/lib/sqlite
+sqlite_dbs: []

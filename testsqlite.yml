@@ -1,0 +1,9 @@
+---
+- hosts: dockerubuntu
+#  var_files:
+#   - 'defaults/main.yml'
+
+# tasks:
+#   -include: 'tasks/main.yml'
+  roles:
+     - { role: sqlite,sqlite_dbs: [ foo, bar ]}
